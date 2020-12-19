@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MovieListViewController" customModule="SwiggyTest" customModuleProvider="target">
+            <connections>
+                <outlet property="bodyContainer" destination="MV7-n5-KAh" id="3EI-Uf-35N"/>
+                <outlet property="searchTextField" destination="a65-ci-gMu" id="tzv-Ab-EQ4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a65-ci-gMu">
+                    <rect key="frame" x="20" y="64" width="374" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="dbM-ol-p0Y"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MV7-n5-KAh">
+                    <rect key="frame" x="20" y="129" width="374" height="713"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="a65-ci-gMu" secondAttribute="trailing" constant="20" id="8pf-Mz-H1R"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="MV7-n5-KAh" secondAttribute="trailing" constant="20" id="IHA-BU-1OQ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="MV7-n5-KAh" secondAttribute="bottom" constant="20" id="RBK-nJ-xPs"/>
+                <constraint firstItem="MV7-n5-KAh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="XOp-qO-vFf"/>
+                <constraint firstItem="MV7-n5-KAh" firstAttribute="top" secondItem="a65-ci-gMu" secondAttribute="bottom" constant="20" id="iPT-Za-glX"/>
+                <constraint firstItem="a65-ci-gMu" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="iq1-Lm-S3n"/>
+                <constraint firstItem="a65-ci-gMu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="rZX-aM-cNN"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="146"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

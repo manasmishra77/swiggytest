@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		56C06E182549439200925F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C06E172549439200925F46 /* AppDelegate.swift */; };
-		56C06E1A2549439200925F46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C06E192549439200925F46 /* SceneDelegate.swift */; };
 		56C06E1C2549439200925F46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C06E1B2549439200925F46 /* ViewController.swift */; };
 		56C06E1F2549439200925F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C06E1D2549439200925F46 /* Main.storyboard */; };
 		56C06E212549439300925F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C06E202549439300925F46 /* Assets.xcassets */; };
 		56C06E242549439300925F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C06E222549439300925F46 /* LaunchScreen.storyboard */; };
 		56C06E2F2549439300925F46 /* SwiggyTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C06E2E2549439300925F46 /* SwiggyTestTests.swift */; };
 		56C06E3A2549439300925F46 /* SwiggyTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C06E392549439300925F46 /* SwiggyTestUITests.swift */; };
+		56C06E50254943E000925F46 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C06E4E254943E000925F46 /* MovieListViewController.swift */; };
+		56C06E51254943E000925F46 /* MovieListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56C06E4F254943E000925F46 /* MovieListViewController.xib */; };
+		56C06E572549440500925F46 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C06E562549440500925F46 /* AppManager.swift */; };
+		56C06E5F2549441500925F46 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C06E5E2549441500925F46 /* NetworkManager.swift */; };
+		56C06E6525494BE900925F46 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C06E6425494BE900925F46 /* MovieList.swift */; };
+		56C06E6A254953A800925F46 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C06E69254953A800925F46 /* Movie.swift */; };
+		56C06E702549558E00925F46 /* SearchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C06E6F2549558E00925F46 /* SearchList.swift */; };
+		56C06E782549559C00925F46 /* SearchList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56C06E772549559C00925F46 /* SearchList.xib */; };
+		56C06E7E2549567A00925F46 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C06E7C2549567A00925F46 /* SearchCollectionViewCell.swift */; };
+		56C06E7F2549567A00925F46 /* SearchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56C06E7D2549567A00925F46 /* SearchCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +46,6 @@
 /* Begin PBXFileReference section */
 		56C06E142549439200925F46 /* SwiggyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiggyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C06E172549439200925F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56C06E192549439200925F46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		56C06E1B2549439200925F46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		56C06E1E2549439200925F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56C06E202549439300925F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +57,16 @@
 		56C06E352549439300925F46 /* SwiggyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiggyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C06E392549439300925F46 /* SwiggyTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiggyTestUITests.swift; sourceTree = "<group>"; };
 		56C06E3B2549439300925F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C06E4E254943E000925F46 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		56C06E4F254943E000925F46 /* MovieListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListViewController.xib; sourceTree = "<group>"; };
+		56C06E562549440500925F46 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		56C06E5E2549441500925F46 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		56C06E6425494BE900925F46 /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
+		56C06E69254953A800925F46 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		56C06E6F2549558E00925F46 /* SearchList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchList.swift; sourceTree = "<group>"; };
+		56C06E772549559C00925F46 /* SearchList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchList.xib; sourceTree = "<group>"; };
+		56C06E7C2549567A00925F46 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		56C06E7D2549567A00925F46 /* SearchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +117,10 @@
 		56C06E162549439200925F46 /* SwiggyTest */ = {
 			isa = PBXGroup;
 			children = (
+				56C06E632549443500925F46 /* models */,
+				56C06E55254943F000925F46 /* manager */,
 				56C06E172549439200925F46 /* AppDelegate.swift */,
-				56C06E192549439200925F46 /* SceneDelegate.swift */,
+				56C06E4D254943C200925F46 /* movielist */,
 				56C06E1B2549439200925F46 /* ViewController.swift */,
 				56C06E1D2549439200925F46 /* Main.storyboard */,
 				56C06E202549439300925F46 /* Assets.xcassets */,
@@ -126,6 +146,45 @@
 				56C06E3B2549439300925F46 /* Info.plist */,
 			);
 			path = SwiggyTestUITests;
+			sourceTree = "<group>";
+		};
+		56C06E4D254943C200925F46 /* movielist */ = {
+			isa = PBXGroup;
+			children = (
+				56C06E6E2549557700925F46 /* body */,
+				56C06E4E254943E000925F46 /* MovieListViewController.swift */,
+				56C06E4F254943E000925F46 /* MovieListViewController.xib */,
+			);
+			path = movielist;
+			sourceTree = "<group>";
+		};
+		56C06E55254943F000925F46 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				56C06E562549440500925F46 /* AppManager.swift */,
+				56C06E5E2549441500925F46 /* NetworkManager.swift */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		56C06E632549443500925F46 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				56C06E6425494BE900925F46 /* MovieList.swift */,
+				56C06E69254953A800925F46 /* Movie.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		56C06E6E2549557700925F46 /* body */ = {
+			isa = PBXGroup;
+			children = (
+				56C06E6F2549558E00925F46 /* SearchList.swift */,
+				56C06E772549559C00925F46 /* SearchList.xib */,
+				56C06E7C2549567A00925F46 /* SearchCollectionViewCell.swift */,
+				56C06E7D2549567A00925F46 /* SearchCollectionViewCell.xib */,
+			);
+			path = body;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +290,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C06E7F2549567A00925F46 /* SearchCollectionViewCell.xib in Resources */,
 				56C06E242549439300925F46 /* LaunchScreen.storyboard in Resources */,
+				56C06E782549559C00925F46 /* SearchList.xib in Resources */,
 				56C06E212549439300925F46 /* Assets.xcassets in Resources */,
 				56C06E1F2549439200925F46 /* Main.storyboard in Resources */,
+				56C06E51254943E000925F46 /* MovieListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C06E6A254953A800925F46 /* Movie.swift in Sources */,
+				56C06E6525494BE900925F46 /* MovieList.swift in Sources */,
+				56C06E50254943E000925F46 /* MovieListViewController.swift in Sources */,
 				56C06E1C2549439200925F46 /* ViewController.swift in Sources */,
+				56C06E5F2549441500925F46 /* NetworkManager.swift in Sources */,
+				56C06E702549558E00925F46 /* SearchList.swift in Sources */,
 				56C06E182549439200925F46 /* AppDelegate.swift in Sources */,
-				56C06E1A2549439200925F46 /* SceneDelegate.swift in Sources */,
+				56C06E572549440500925F46 /* AppManager.swift in Sources */,
+				56C06E7E2549567A00925F46 /* SearchCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +505,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYLNKVDPN7;
 				INFOPLIST_FILE = SwiggyTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +525,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYLNKVDPN7;
 				INFOPLIST_FILE = SwiggyTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
